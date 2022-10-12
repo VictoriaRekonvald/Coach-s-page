@@ -1,0 +1,461 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Coach's page</title>
+
+  <!-- favicon -->
+  <link rel="shortcut icon" href="#" type="image/x-icon">
+
+  <!-- custom css link -->
+  <link rel="stylesheet" href="style.css">
+
+  <!-- google font link  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+
+<body >
+
+  <!-- #MAIN -->
+
+  <main>
+
+    <!-- #SIDEBAR -->
+
+    <aside class="sidebar" data-sidebar>
+
+      <div class="sidebar-info">
+
+        <figure class="avatar-box">
+          <img src="photo.png" alt="Victoria Rekonvald" width="80px">
+        </figure>
+
+        <div class="info-content">
+          <h1 class="name" title="Victoria Rekonvald">Victoria Rekonvald</h1>
+
+          <p class="title">Fitness coach</p>
+        </div>
+
+        <button class="info_more-btn" data-sidebar-btn>
+          <span>Show Contacts</span>
+
+          <ion-icon name="chevron-down"></ion-icon>
+        </button>
+
+      </div>
+
+      <div class="sidebar-info_more">
+
+        <div class="separator"></div>
+
+        <ul class="contacts-list">
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="mail-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Email</p>
+
+              <a href="VictoriaRekonvald@gmail.com" class="contact-link">VictoriaRekonvald@gmail.com</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="calendar-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Birthday</p>
+
+              <time datetime="2004-02-09">September 2, 2004</time>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="location-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Location</p>
+
+              <address>Mykolaiv, Ukraine</address>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="man-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Specialization</p>
+
+              <a href="tel:+12133522795" class="contact-link">Fitness</a>
+            </div>
+
+          </li>
+        </ul>
+
+        <div class="separator"></div>
+
+        <ul class="social-list">
+
+          <li class="social-item">
+            <a href="https://www.facebook.com/people/Виктория-Реконвальд/100036124220084/" class="social-link">
+              <ion-icon name="logo-facebook"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="https://www.instagram.com/kkktouse/?igshid=YmMyMTA2M2Y%3D" class="social-link">
+              <ion-icon name="logo-instagram"></ion-icon>
+            </a>
+          </li>
+
+        </ul>
+
+      </div>
+
+    </aside>
+
+    <!-- #main-content -->
+
+    <div class="main-content">
+
+      <!-- #NAVBAR -->
+
+      <nav class="navbar">
+
+        <ul class="navbar-list">
+
+          <li class="navbar-item">
+            <button class="navbar-link  active" data-nav-link>About</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Disciples</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Contact</button>
+          </li>
+
+        </ul>
+
+      </nav>
+
+      <!-- testimonials -->
+
+      <article class="about  active" data-page="about">
+
+        <header>
+          <h2 class="h2 article-title">About me</h2>
+        </header>
+
+        <section class="about-text">
+          <p>
+            A professional fitness trainer who knows how to help clients with different genetics, psychological characteristics and anamnesis to build a harmonious body without harm to health. 
+            I help make the daily menu, I strictly control the technique of performing exercises, I treat the wishes of clients with respect and understanding.
+          </p>
+
+          <p>
+            Highly effective certified personal fitness trainer with more than 5 years of experience. 
+            I create individual nutrition programs and training plans taking into account the needs of clients.
+          </p>
+        </section>
+
+        <!-- testimonials -->
+
+        <section class="testimonials">
+
+          <h3 class="h3 testimonials-title">Testimonials</h3>
+
+          <ul class="testimonials-list has-scrollbar">
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+                <figure class="testimonials-avatar-box">
+                  <img src="avatar-1.png" alt="Daniel lewis" width="60" data-testimonials-avatar>
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>Daniel lewis</h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    This is the best trainer! Training with him is incredible. I feel myself getting stronger!
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+                <figure class="testimonials-avatar-box">
+                  <img src="avatar-2.png" alt="Jessica miller" width="60" data-testimonials-avatar>
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>Jessica miller</h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    A regular fitness trainer. Strict, but fair. Training with her is interesting.
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+                <figure class="testimonials-avatar-box">
+                  <img src="avatar-3.png" alt="Emily evans" width="60" data-testimonials-avatar>
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>Emily evans</h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    The best coach, according to many. 
+                    I express my gratitude to him for his attitude to his work, energy, creative approach. 
+                    She is passionate about her work and demands it from others. 
+                    For the sake of his classes, many change their plans because they are like a breath of fresh air in our stuffy city, and also a good mood and a boost of energy. 
+                    Many thanks and continued success. 
+                    I wish there were more coaches like this.
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+                <figure class="testimonials-avatar-box">
+                  <img src="avatar-4.png" alt="Henry william" width="60" data-testimonials-avatar>
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>Henry william</h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    I would like to thank and note the wonderful coach. 
+                    Her workouts are always very professional, efficient and varied. 
+                    And she can properly cheer and criticize funny if necessary. 
+                    Classes are interesting, bring pleasure and excellent results.
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+          </ul>
+
+        </section>
+
+        <!-- testimonials modal -->
+
+        <div class="modal-container" data-modal-container>
+
+          <div class="overlay" data-overlay></div>
+
+          <section class="testimonials-modal">
+
+            <button class="modal-close-btn" data-modal-close-btn>
+              <ion-icon name="close-outline"></ion-icon>
+            </button>
+
+            <div class="modal-img-wrapper">
+              <figure class="modal-avatar-box">
+                <img src="avatar-1.png" alt="Daniel lewis" width="80" data-modal-img>
+              </figure>
+            </div>
+
+            <div class="modal-content">
+
+              <h4 class="h3 modal-title" data-modal-title>Daniel lewis</h4>
+
+              <time datetime="2021-06-14">14 June, 2021</time>
+
+              <div data-modal-text>
+                <p>
+                  A regular fitness trainer. Strict, but fair. Training with her is interesting.
+                </p>
+              </div>
+
+            </div>
+
+          </section>
+
+        </div>
+
+        </section>
+
+      </article>
+
+      <!-- #DISCIPLES -->
+
+      <article class="disciples" data-page="disciples">
+
+        <header>
+          <h2 class="h2 article-title">Disciples</h2>
+        </header>
+
+          <div class="filter-select-box">
+
+            <button class="filter-select" data-select>
+              <div class="select-value" data-selecct-value>
+              </div>
+            </button>
+          </div>
+          <div class="table-wrap">
+            <table class="resp-tab">
+              <thead>
+              <tr>
+                <th scope="col">Name</th>
+                <th scope="col">Sex</th>
+                <th scope="col">Nationality</th>
+                <th scope="col">Age</th>
+              </tr>
+              </thead>
+              <tbody>
+              <tr>
+                <td data-label="Name">Yaroslav Arkushenko</td>
+                <td data-label="Sex">Male</td>
+                <td data-label="Сроки">Ukrainian</td>
+                <td data-label="Age">20</td>
+              </tr>
+              <tr>
+                <td data-label="Name">Kozerivsky Eduard</td>
+                <td data-label="Sex">Male</td>
+                <td data-label="Nationality">Ukrainian</td>
+                <td data-label="Age">19</td>
+              </tr>
+              <tr>
+                <td data-label="Name">Denis Chevlev</td>
+                <td data-label="Sex">Male</td>
+                <td data-label="Nationality">Ukrainian</td>
+                <td data-label="Age">19</td>
+              </tr>
+              <tr>
+                <td data-label="Name">Kalaburza Nikita</td>
+                <td data-label="Sex">Male</td>
+                <td data-label="Nationality">Ukrainian</td>
+                <td data-label="Age">20</td>
+              </tr>
+              <tr>
+                <td data-label="Name">Andriy Manzyuk</td>
+                <td data-label="Sex">Male</td>
+                <td data-label="Nationality">Ukrainian</td>
+                <td data-label="Age">19</td>
+              </tr>
+              <tr>
+                <td data-label="Name">Julia Franchuk</td>
+                <td data-label="Sex">Female</td>
+                <td data-label="Nationality">Ukrainian</td>
+                <td data-label="Age">19</td>
+              </tr>
+              <tr>
+                <td data-label="Name">Habib</td>
+                <td data-label="Sex">Male</td>
+                <td data-label="Nationality">Indian</td>
+                <td data-label="Age">21</td>
+              </tr>
+              <tr>
+                <td data-label="Name">Anastasia Dudchenko</td>
+                <td data-label="Sex">Female</td>
+                <td data-label="Nationality">Ukrainian</td>
+                <td data-label="Age">19</td>
+              </tr>
+              <tr>
+                <td data-label="Name">Jessica</td>
+                <td data-label="Sex">Female</td>
+                <td data-label="Nationality">Indian</td>
+                <td data-label="Age">19</td>
+              </tr>
+              <tr>
+                <td data-label="Name">Ihor Omelchenko</td>
+                <td data-label="Sex">Male</td>
+                <td data-label="Nationality">Ukrainian</td>
+                <td data-label="Age">18</td>
+              </tr>
+              <tr>
+                <td data-label="Name">Kamenikova Vika</td>
+                <td data-label="Sex">Female</td>
+                <td data-label="Nationality">Ukrainian</td>
+                <td data-label="Age">21</td>
+              </tr>
+              <tr>
+              </tbody>
+            </table>
+          </div>
+        </section>
+
+      </article>
+
+      <!-- #CONTACT -->
+
+      <article class="contact" data-page="contact">
+
+        <header>
+          <h2 class="h2 article-title">Contact</h2>
+        </header>
+
+        <section class="contact-form">
+
+          <h3 class="h3 form-title">Contact Form</h3>
+
+          <form action="#" class="form" data-form>
+
+            <div class="input-wrapper">
+              <input type="text" name="fullname" class="form-input" placeholder="Full name" required data-form-input>
+
+              <input type="email" name="email" class="form-input" placeholder="Email address" required data-form-input>
+            </div>
+
+            <textarea name="message" class="form-input" placeholder="Your Message" required data-form-input></textarea>
+
+            <button class="form-btn" type="submit" disabled data-form-btn>
+              <ion-icon name="paper-plane"></ion-icon>
+              <span>Send Message</span>
+            </button>
+
+          </form>
+
+        </section>
+
+      </article>
+
+    </div>
+
+  </main>
+
+  <!-- custom js link -->
+  <script src="index.js"></script>
+
+  <!-- ionicon link -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
